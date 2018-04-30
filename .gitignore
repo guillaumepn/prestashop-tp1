@@ -2,3 +2,5 @@
 .idea
 vendor
 node_modules
+app/cache
+app/logs

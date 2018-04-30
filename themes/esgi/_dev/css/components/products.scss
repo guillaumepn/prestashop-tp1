@@ -462,6 +462,11 @@
   }
 }
 .product-variants {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+
   > .product-variants-item {
     margin: $medium-space 0;
     select {

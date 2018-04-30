@@ -24,23 +24,10 @@
  *}
 <div class="product-add-to-cart">
   {if !$configuration.is_catalog}
-    <span class="control-label">{l s='Quantity' d='Shop.Theme.Catalog'}</span>
+    {*<span class="control-label">{l s='Quantity' d='Shop.Theme.Catalog'}</span>*}
 
     {block name='product_quantity'}
-      <div class="product-quantity clearfix">
-        <div class="qty">
-          <input
-            type="text"
-            name="qty"
-            id="quantity_wanted"
-            value="{$product.quantity_wanted}"
-            class="input-group"
-            min="{$product.minimal_quantity}"
-            aria-label="{l s='Quantity' d='Shop.Theme.Actions'}"
-          >
-        </div>
 
-      </div>
 
       {block name='product_prices'}
           {include file='catalog/_partials/product-prices.tpl'}
