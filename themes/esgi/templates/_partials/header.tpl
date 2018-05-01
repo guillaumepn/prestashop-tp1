@@ -33,10 +33,10 @@
     <div class="container">
       <div class="row">
         <div class="hidden-sm-down">
-          <div class="col-md-5 col-xs-12">
+          <div class="col-xs-12">
             {hook h='displayNav1'}
           </div>
-          <div class="col-md-7 right-nav">
+          <div class="col-xs-12 right-nav">
               {hook h='displayNav2'}
           </div>
         </div>
@@ -58,12 +58,12 @@
   <div class="header-top">
     <div class="container">
        <div class="row">
-        <div class="col-md-2 hidden-sm-down" id="_desktop_logo">
+        <div class="col-md-12 hidden-sm-down" id="_desktop_logo">
           <a href="{$urls.base_url}">
             <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
           </a>
         </div>
-        <div class="col-md-10 col-sm-12 position-static">
+        <div class="col-md-12 position-static">
           {hook h='displayTop'}
           <div class="clearfix"></div>
         </div>

@@ -23,12 +23,12 @@
     @include box-shadow;
     &:hover, &:focus {
       .highlighted-informations {
-        bottom: 5.5rem;
+        bottom: 9.5rem;
         &::after {
           opacity: 1;
         }
         &.no-variants{
-          bottom: 4.2rem;
+          bottom: 6.2rem;
         }
       }
       .product-description::after{
@@ -44,7 +44,7 @@
   }
   .products-section-title {
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin: 50px;
   }
   .product-title {
     text-align: center;

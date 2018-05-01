@@ -11,6 +11,28 @@ body {
   color: $gray-darker;
   line-height: 1.25em;
 }
+// Cacher ombres portées
+* {
+  box-shadow: none !important;
+}
+
+// Navigation verticale
+main {
+  display: flex;
+
+  .container-left {
+    width: 20%;
+
+    #header .menu, #header .menu>ul>li {
+      display: block;
+    }
+  }
+
+  .breadcrumb {
+    text-align: right;
+  }
+}
+
 ul {
   list-style: none;
   padding-left: 0;

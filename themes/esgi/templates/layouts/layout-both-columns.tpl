@@ -42,11 +42,19 @@
         {include file='catalog/_partials/product-activation.tpl'}
       {/block}
 
-      <header id="header">
-        {block name='header'}
-          {include file='_partials/header.tpl'}
-        {/block}
-      </header>
+        <div class="container-left">
+            <header id="header">
+                {block name='header'}
+                    {include file='_partials/header.tpl'}
+                {/block}
+            </header>
+
+            <footer id="footer">
+                {block name="footer"}
+                    {include file="_partials/footer.tpl"}
+                {/block}
+            </footer>
+        </div>
 
       {block name='notifications'}
         {include file='_partials/notifications.tpl'}
@@ -91,12 +99,6 @@
         </div>
         {hook h="displayWrapperBottom"}
       </section>
-
-      <footer id="footer">
-        {block name="footer"}
-          {include file="_partials/footer.tpl"}
-        {/block}
-      </footer>
 
     </main>
 

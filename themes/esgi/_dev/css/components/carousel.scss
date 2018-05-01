@@ -1,0 +1,17 @@
+#carousel {
+  height: 70vh;
+
+  .carousel-inner {
+    overflow: visible;
+
+    .carousel-item {
+      height: 70vh;
+
+      img {
+        object-fit: cover;
+        height: 70vh;
+      }
+    }
+  }
+
+}

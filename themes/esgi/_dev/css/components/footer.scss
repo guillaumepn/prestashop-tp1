@@ -167,6 +167,14 @@
   }
 }
 
+@include media-breakpoint-up(lg) {
+  .block_newsletter {
+    margin: auto !important;
+    float: none !important;
+  }
+}
+
+
 
 @include media-breakpoint-down(sm) {
   .block_newsletter {

@@ -22,10 +22,10 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-<div class="col-md-4 links">
+<div class="col-md-12 links">
   <div class="row">
   {foreach $linkBlocks as $linkBlock}
-    <div class="col-md-6 wrapper">
+    <div class="col-md-12 wrapper">
       <h3 class="h3 hidden-sm-down">{$linkBlock.title}</h3>
       {assign var=_expand_id value=10|mt_rand:100000}
       <div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_{$_expand_id}" data-toggle="collapse">
