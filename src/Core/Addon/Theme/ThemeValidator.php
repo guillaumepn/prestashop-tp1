@@ -141,7 +141,7 @@ class ThemeValidator
             'templates/customer/guest-login.tpl',
             'templates/customer/history.tpl',
             'templates/customer/identity.tpl',
-            'templates/index.tpl',
+            'templates/getContent.tpl',
             'templates/customer/my-account.tpl',
             'templates/checkout/order-confirmation.tpl',
             'templates/customer/order-detail.tpl',
